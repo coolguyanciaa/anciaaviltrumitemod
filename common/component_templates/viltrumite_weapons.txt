@@ -14,8 +14,9 @@ weapon_component_template = {
 	projectile_gfx = "biogenesis_01_mandible_attack"
 	tags = { weapon_type_mandible weapon_type_kinetic g_slot }
 	ai_tags = { weapon_role_anti_armor }
-	size_restriction = {
-		ship_size = vitrumite_soldier
+
+	potential = {
+		is_ship_size = viltrumite_soldier
 	}
 
 	ai_weight = {
@@ -31,7 +32,7 @@ weapon_component_template = {
 	shield_damage = 1.25
 	shield_penetration = 0.1
 
-	range = 10
+	range = 15
 	accuracy = 0.5
 	tracking = 0.25
 
@@ -54,8 +55,9 @@ weapon_component_template = {
 	projectile_gfx = "biogenesis_01_mandible_attack"
 	tags = { weapon_type_mandible weapon_type_kinetic g_slot }
 	ai_tags = { weapon_role_anti_hull }
-	size_restriction = {
-		ship_size = vitrumite_soldier
+
+	potential = {
+		is_ship_size = viltrumite_soldier
 	}
 
 	ai_weight = {
@@ -71,7 +73,7 @@ weapon_component_template = {
 	armor_penetration = 0.25
 	shield_damage = 0.25
 
-	range = 10
+	range = 15
 	accuracy = 1.0
 	tracking = 0.1
 
@@ -92,8 +94,9 @@ weapon_component_template = {
 	projectile_gfx = "biogenesis_01_mandible_attack"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
-	size_restriction = {
-		ship_size = vitrumite_soldier
+	
+	potential = {
+		is_ship_size = viltrumite_soldier
 	}
 
 	point_defence_targets = { "missile" "strike_craft" }
@@ -106,7 +109,7 @@ weapon_component_template = {
 	armor_damage = 1.25
 	shield_damage = 0.75
 
-	range = 10
+	range = 15
 	accuracy = 1.0
 	tracking = 0.9
 

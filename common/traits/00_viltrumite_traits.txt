@@ -24,7 +24,7 @@
 #}
 
 trait_viltrumite_flight = {
-	cost = 1
+	cost = 0
 	icon = "gfx/interface/icons/traits/Viltrumite.dds"
 	initial = yes
 	randomized = no
@@ -44,7 +44,7 @@ trait_viltrumite_flight = {
 }
 
 trait_viltrumite_durability = {
-	cost = 1
+	cost = 0
 	icon = "gfx/interface/icons/traits/Viltrumite.dds"
 	initial = yes
 	randomized = no
@@ -64,7 +64,7 @@ trait_viltrumite_durability = {
 }
 
 trait_viltrumite_strength = {
-	cost = 1
+	cost = 0
 	icon = "gfx/interface/icons/traits/Viltrumite.dds"
 	initial = yes
 	randomized = no
@@ -83,7 +83,7 @@ trait_viltrumite_strength = {
 }
 
 trait_viltrumite_regen = {
-	cost = 1
+	cost = 0
 	icon = "gfx/interface/icons/traits/Viltrumite.dds"
 	initial = yes
 	randomized = no

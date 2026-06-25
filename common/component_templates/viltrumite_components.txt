@@ -10,14 +10,16 @@ utility_component_template = {
 
 	modifier = {
 		ship_hull_add = 500
+		ship_armor_add = 1000
+		ship_armor_hardening_add = 0.5
 	}
 	ship_modifier = {
 		ship_damage_reduction_add = 6
 	}
 
-	ai_weight = 1
-	size_restriction = {
-		is_ship_class = "vitrumite_soldier"
+	ai_weight = 10
+	potential = {
+		is_ship_size = viltrumite_soldier
 	}
 }
 
@@ -30,8 +32,8 @@ utility_component_template = {
 	power = 100
 
 	component_set = "power_core"
-	size_restriction = {
-		ship_size = vitrumite_soldier
+	potential = {
+		is_ship_size = viltrumite_soldier
 	}
 
 	modifier = {
@@ -39,7 +41,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 1
+		weight = 10
 	}
 }
 
@@ -51,8 +53,8 @@ utility_component_template = {
 	icon_frame = 1
 	power = 0
 
-	size_restriction = {
-		ship_size = vitrumite_soldier
+	potential = {
+		is_ship_size = viltrumite_soldier
 	}
 
 	ftl = yes
@@ -65,7 +67,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 5
+		weight = 10
 	}
 	
 	component_set = "ftl_components"
@@ -84,11 +86,11 @@ utility_component_template = {
 
 	component_set = "thruster_components"
 	potential = {
-		ship_size = viltrumite_soldier
+		is_ship_size = viltrumite_soldier
 	}
 
 	ai_weight = {
-		weight = 1
+		weight = 10
 	}
 }
 
@@ -110,11 +112,11 @@ utility_component_template = {
 	component_set = "sensor_components"
 
 	potential = {
-		ship_size = viltrumite_soldier
+		is_ship_size = viltrumite_soldier
 	}
 
 	ai_weight = {
-		weight = 1
+		weight = 10
 	}
 }
 
@@ -125,9 +127,9 @@ utility_component_template = {
 	icon = "GFX_ship_part_computer_swarm_sapient"
 	icon_frame = 1
 	power = 0
+
 	potential = {
-		ship_size = viltrumite_soldier
-		ship_uses_torpedo_role = yes
+		is_ship_size = viltrumite_soldier
 	}
 
 	component_set = "combat_computers"
@@ -142,12 +144,12 @@ utility_component_template = {
 	}
 
 	ship_modifier = {
-		weapon_type_explosive_weapon_damage_mult = 0.15
-		ship_damage_against_starbases_mult = 0.80
-		ship_orbital_bombardment_mult = 0.80
+		weapon_type_kinetic_weapon_damage_mult = 0.25
+		ship_damage_against_starbases_mult = 0.50
+		ship_orbital_bombardment_mult = -1
 	}
 
 	ai_weight = {
-		weight = 1
+		weight = 10
 	}
 }

@@ -17,3 +17,34 @@ trait_viltrumite_regen_desc: "Members of this species are able to regenerate fro
 
 trait_viltrumite: "Viltrumite"
 trait_viltrumite_desc: "Members of this species are effectively immortal. They age slower as they grow older, while their strength continues to increase. An old Viltrumite is one that has fought and conquered for centuries, if not millennia."
+
+viltrumite_soldier: "Viltrumite Soldier"
+viltrumite_soldier_key: "Viltrumite"
+viltrumite_soldier_plural: "Viltrumite Enforcers"
+
+VILTRUMITE_FIST_WEAPON_1: "Viltrumite Fists"
+VILTRUMITE_FIST_WEAPON_1_desc: "A Viltrumite's fists are often their preferred weapon. Strong enough to dent a ship's hull just by clenching their fist, a Viltrumite can quickly break holes into an enemy ship if not dispatched quickly."
+
+VILTRUMITE_SLICE_WEAPON_1: "Viltrumite Slice"
+VILTRUMITE_SLICE_WEAPON_1_desc: "Due to their durability, a Viltrumite's hands are far more sturdy than those of other species. With a flat hand, a Viltrumite can stab or slash through metal and flesh. However, they struggle to make it through thick armor."
+
+VILTRUMITE_PD_WEAPON_1: "Viltrumite Self Defense"
+VILTRUMITE_PD_WEAPON_1_desc: "Although Viltrumites are nigh-impervious to small arms fire, they are not immune. Missiles, guns, and explosions can whittle away at their defenses, eventually leaving them vulnerable. However, the extreme lethality and agility of a Viltrumite allows them to dispatch nimble targets before they can deal too much damage."
+
+VILTRUMITE_HULL_1: "Viltrumite Flesh"
+VILTRUMITE_HULL_1_desc: "Viltrumite flesh is extremely tough, and near-impervious to most weaponry."
+
+VILTRUMITE_HEART_1: "Viltrumite Heart"
+VILTRUMITE_HEART_1_desc: "The source of a Viltrumite's regeneration."
+
+VILTRUMITE_FTL_1: "Interstellar Flight"
+VILTRUMITE_FTL_1_desc: "Although it is not as easily sustained as other methods of travel, a Viltrumite's ability to fly can be used to travel in between systems, irregardless of the presence or lack of hyperlanes."
+
+VILTRUMITE_FLIGHT_1: "Psychokinetic Flight"
+VILTRUMITE_FLIGHT_1_desc: "Viltrumites fly by creating their own leverage, physically translating themselves through space. This can be used even in a vacuum, allowing for flight through interplanetary and intersolar space."
+
+VILTRUMITE_SENSOR_1: "Viltrumite Combat Experience"
+VILTRUMITE_SENSOR_1_desc: "The martial nature of Viltrumites means that they are constantly subjected to combat from a very young age. As a result, their reflexes and intuition are more honed than those of other species."
+
+VILTRUMITE_ROLE_1: "Viltrumite Behavior"
+VILTRUMITE_ROLE_1_desc: "Each Viltrumite is a warrior of their own, but those in a group learn to adapt to each other's strengths, improving cohesion."
