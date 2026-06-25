@@ -1,0 +1,114 @@
+# Viltrumite Fists
+weapon_component_template = {
+	key = "VILTRUMITE_FIST_WEAPON_1"
+	size = torpedo
+	entity = "invisible_turret_entity"
+
+	icon = "GFX_ship_part_mandible_3"
+	icon_frame = 1
+	type = instant
+
+	firing_arc = 75.0
+
+	component_set = "VILTRUMITE_FIST_WEAPON_1"
+	projectile_gfx = "biogenesis_01_mandible_attack"
+	tags = { weapon_type_mandible weapon_type_kinetic g_slot }
+	ai_tags = { weapon_role_anti_armor }
+	size_restriction = {
+		ship_size = vitrumite_soldier
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+
+	damage = {
+		min = 75.0
+		max = 150.0
+	}
+	hull_damage = 0.3
+	armor_damage = 1.25
+	shield_damage = 1.25
+	shield_penetration = 0.1
+
+	range = 10
+	accuracy = 0.5
+	tracking = 0.25
+
+	total_fire_time = 2
+}
+
+# Viltrumite Slice
+weapon_component_template = {
+	key = "VILTRUMITE_CUT_WEAPON_1"
+	size = torpedo
+	entity = "invisible_turret_entity"
+
+	icon = "GFX_ship_part_mandible_3"
+	icon_frame = 1
+	type = instant
+
+	firing_arc = 10.0
+
+	component_set = "VILTRUMITE_CUT_WEAPON_1"
+	projectile_gfx = "biogenesis_01_mandible_attack"
+	tags = { weapon_type_mandible weapon_type_kinetic g_slot }
+	ai_tags = { weapon_role_anti_hull }
+	size_restriction = {
+		ship_size = vitrumite_soldier
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+
+	damage = {
+		min = 125.0
+		max = 375.0
+	}
+	hull_damage = 5.0
+	armor_damage = 0.25
+	armor_penetration = 0.25
+	shield_damage = 0.25
+
+	range = 10
+	accuracy = 1.0
+	tracking = 0.1
+
+	total_fire_time = 20
+}
+
+# Viltrumite PD
+weapon_component_template = {
+	key = "VILTRUMITE_PD_WEAPON_1"
+	size = point_defence
+	entity = "invisible_turret_entity"
+
+	icon = "GFX_mutation_spitter_gun_1"
+	icon_frame = 1
+	type = point_defence
+
+	component_set = "VILTRUMITE_PD_WEAPON_1"
+	projectile_gfx = "biogenesis_01_mandible_attack"
+	tags = { weapon_type_point_defense weapon_type_kinetic }
+	ai_tags = { weapon_role_point_defense screen }
+	size_restriction = {
+		ship_size = vitrumite_soldier
+	}
+
+	point_defence_targets = { "missile" "strike_craft" }
+
+	damage = {
+		min = 12.0
+		max = 24.0
+	}
+	hull_damage = 2.0
+	armor_damage = 1.25
+	shield_damage = 0.75
+
+	range = 10
+	accuracy = 1.0
+	tracking = 0.9
+
+	total_fire_time = 2
+}

@@ -1,0 +1,134 @@
+### VILTRUMITE SHIP SIZES ###
+
+#reloadable with 'reload stats'
+# This file is where you start when you want to configure something new, then go to sections
+
+@corvette_collision_radius = 2.0
+
+@destroyer_collision_radius = 2.5
+
+@cruiser_collision_radius = 3
+
+@battleship_collision_radius = 3
+
+@titan_collision_radius = 15
+
+@build_block_radius_none = 0
+@build_block_radius_civilian = 20
+@build_block_radius_military = 200
+
+@speed_very_slow = 80
+@speed_slow = 100
+@speed_default = 120
+@speed_fast = 140
+@speed_very_fast = 160
+
+#prev viltrumite soldier
+#dontuse = {
+#	formation_priority = @destroyer_formation_priority
+#	graphical_culture = no
+#	entity = paragon_01_skrand_ship_01_entity
+#	max_speed = 250
+#	acceleration = 0.75
+#	rotation_speed = 0.8
+#	collision_radius = 1
+#	modifier = {
+#		ship_evasion_add = 25
+#		ship_hull_regen_add_perc = 0.1
+#	}
+#	max_hitpoints = 2000
+#	size_multiplier = 1
+#	map_counter_icon = ship_counter_8
+#	icon = ship_size_military_2
+#	combat_size_multiplier = 1
+#	fleet_slot_size = 1
+#	resources = {
+#		category = ships
+#		upkeep = {
+#			food = 1
+#			unity = 1
+#		}
+#		cost = {
+#			unity = 100
+#		}
+#	}
+#	section_slots = { "mid" = { locator = "root" } }
+#	num_target_locators = 0
+#	is_space_station = no
+#	is_space_object = no
+#	can_be_inspected = yes
+#	combat_disengage_chance = 1
+#	class = shipclass_military
+#	construction_type = starbase_shipyard
+#	enable_default_design = no
+#
+#	use_shipnames_from = destroyer
+#
+#	is_designable = yes
+#	base_buildtime = 0
+#	
+#
+#	required_component_set = "ftl_components"
+#	required_component_set = "combat_computers"
+#	required_component_set = "thruster_components"
+#	components_add_to_cost = no
+#}
+
+# Viltrumite Soldier
+viltrumite_soldier = {
+	graphical_culture = no
+	entity = biogenesis_01_fallen_empire_mauler_ship_entity
+	hull_scale = 0.5
+	max_speed = 250
+	acceleration = 0.75
+	rotation_speed = 0.8
+	collision_radius = 0.25
+	combat_disengage_chance = 0.1
+	modifier = {
+		ship_evasion_add = 80
+		ship_hull_regen_add_perc = 0.1
+	}
+	max_hitpoints = 1000
+	size_multiplier = 1
+	map_counter_icon = ship_counter_4
+	icon = ship_size_military_1
+	fleet_slot_size = 1
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 0
+	is_space_station = no
+
+	potential_country = {
+		has_technology = "tech_corvettes"
+	}
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	enable_default_design = yes
+	default_behavior = torpedo
+	ship_roles = { explosive carrier gunship screen }
+
+	use_shipnames_from = corvette
+
+	base_buildtime = 1
+
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "combat_computers"
+	#required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+
+	components_add_to_cost = no
+	resources = {
+		category = ships
+		cost = {
+			unity = 100
+		}
+		upkeep = {
+			unity = 1
+			food = 1
+		}
+	}
+
+	available_to_everyone = yes
+}
+

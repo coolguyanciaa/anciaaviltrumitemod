@@ -1,0 +1,31 @@
+# Viltrumite Fists
+component_set = {
+	key = "VILTRUMITE_FIST_WEAPON_1"
+
+	icon = "GFX_ship_part_space_cloud_weapon_1"
+	icon_frame = 1
+}
+
+# Viltrumite Slices
+component_set = {
+	key = "VILTRUMITE_CUT_WEAPON_1"
+
+	icon = "GFX_ship_part_space_cloud_weapon_1"
+	icon_frame = 1
+}
+
+# Viltrumite Self Defense
+component_set = {
+	key = "VILTRUMITE_PD_WEAPON_1"
+
+	icon = "GFX_ship_part_space_cloud_weapon_1"
+	icon_frame = 1
+}
+
+# Viltrumite Soldier Hull
+component_set = {
+	key = "VILTRUMITE_HULL_1"
+
+	icon = "GFX_ship_part_bio_armor_5"
+	icon_frame = 1
+}

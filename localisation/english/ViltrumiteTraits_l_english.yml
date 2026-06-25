@@ -1,0 +1,19 @@
+﻿l_english:
+####################################
+# Traits
+####################################
+
+trait_viltrumite_flight: "Psychokinetic Flight"
+trait_viltrumite_flight_desc: "This species is capable of translating themselves through space by creating their own leverage. As a result, interplanetary travel is trivial for them. Due to their ability to levitate above the battlefield, they can easily avoid ground emplacements and quickly close the gap between themselves and their targets."
+
+trait_viltrumite_durability: "Extreme Durability"
+trait_viltrumite_durability_desc: "This species is uncannily resilient, immune to most firearms up to even high-grade anti-tank weaponry. As a result, they are also easily able to withstand harsh climates."
+
+trait_viltrumite_strength: "Incredible Strength"
+trait_viltrumite_strength_desc: "This species is capable of exerting more force than a being its size should be able to. Members of this species are commonly able to lift entire hab-units single-handed."
+
+trait_viltrumite_regen: "Bodily Regeneration"
+trait_viltrumite_regen_desc: "Members of this species are able to regenerate from all but the most grievous of wounds, and even become stronger thereafter. Because of their capacity for regeneration, these beings are extremely hard to kill."
+
+trait_viltrumite: "Viltrumite"
+trait_viltrumite_desc: "Members of this species are effectively immortal. They age slower as they grow older, while their strength continues to increase. An old Viltrumite is one that has fought and conquered for centuries, if not millennia."
