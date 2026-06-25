@@ -2,7 +2,7 @@
 component_set = {
 	key = "VILTRUMITE_FIST_WEAPON_1"
 
-	icon = "GFX_ship_part_space_cloud_weapon_1"
+	icon = "GFX_ship_part_psionic_disruptor"
 	icon_frame = 1
 }
 
@@ -10,7 +10,7 @@ component_set = {
 component_set = {
 	key = "VILTRUMITE_CUT_WEAPON_1"
 
-	icon = "GFX_ship_part_space_cloud_weapon_1"
+	icon = "GFX_ship_part_mandible_3"
 	icon_frame = 1
 }
 
@@ -18,7 +18,15 @@ component_set = {
 component_set = {
 	key = "VILTRUMITE_PD_WEAPON_1"
 
-	icon = "GFX_ship_part_space_cloud_weapon_1"
+	icon = "GFX_mutation_spitter_gun_1"
+	icon_frame = 1
+}
+
+# Viltrumite Self Defense
+component_set = {
+	key = "VILTRUMITE_FLY_WEAPON_1"
+
+	icon = "GFX_ship_part_energy_lance_1"
 	icon_frame = 1
 }
 
@@ -27,5 +35,65 @@ component_set = {
 	key = "VILTRUMITE_HULL_1"
 
 	icon = "GFX_ship_part_bio_armor_5"
+	icon_frame = 1
+}
+
+# Viltrumite Aux
+component_set = {
+	key = "VILTRUMITE_DODGE_1"
+
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "VILTRUMITE_SPEED_1"
+
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "VILTRUMITE_STRENGTH_1"
+
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "VILTRUMITE_DURABILITY_1"
+
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "VILTRUMITE_SURVIVAL_1"
+
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+}
+
+
+
+
+
+
+
+
+
+
+# trol
+component_set = {
+	key = "UNLIMITED_POWER_1"
+
+	icon = "GFX_mutation_spitter_gun_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "UNLIMITED_POWER_PD"
+
+	icon = "GFX_mutation_spitter_gun_1"
 	icon_frame = 1
 }

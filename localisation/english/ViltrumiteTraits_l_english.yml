@@ -21,7 +21,22 @@ trait_viltrumite_desc: "Members of this species are effectively immortal. They a
 viltrumite_soldier: "Viltrumite Soldier"
 viltrumite_soldier_cap: "Viltrumite Soldier"
 viltrumite_soldier_key: "Viltrumite"
-viltrumite_soldier_plural: "Viltrumite Enforcers"
+viltrumite_soldier_plural: "Viltrumite Soldiers"
+
+viltrumite_leader: "Experienced Viltrumite"
+viltrumite_leader_cap: "Experienced Viltrumite"
+viltrumite_leader_key: "Experienced Viltrumite"
+viltrumite_leader_plural: "Experienced Viltrumites"
+
+viltrumite_hero: "Blooded Viltrumite"
+viltrumite_hero_cap: "Blooded Viltrumite"
+viltrumite_hero_key: "Blooded Viltrumite"
+viltrumite_hero_plural: "Blooded Viltrumites"
+
+viltrumite_emperor: "Viltrumite Emperor"
+viltrumite_emperor_cap: "Viltrumite Emperor"
+viltrumite_emperor_key: "Viltrumite Emperor"
+viltrumite_emperor_plural: "How???"
 
 VILTRUMITE_FIST_WEAPON_1: "Viltrumite Fists"
 VILTRUMITE_FIST_WEAPON_1_DESC: "A Viltrumite's fists are often their preferred weapon. Strong enough to dent a ship's hull just by clenching their fist, a Viltrumite can quickly break holes into an enemy ship if not dispatched quickly."
@@ -49,3 +64,7 @@ VILTRUMITE_SENSOR_1_DESC: "The martial nature of Viltrumites means that they are
 
 VILTRUMITE_ROLE_1: "Viltrumite Behavior"
 VILTRUMITE_ROLE_1_DESC: "Each Viltrumite is a warrior of their own, but those in a group learn to adapt to each other's strengths, improving cohesion."
+
+VILTRUMITE_FLY_WEAPON_M: "Living Projectile"
+VILTRUMITE_FLY_WEAPON_L: "Living Projectile"
+VILTRUMITE_FLY_WEAPON_1_DESC: "Although not all are capable of such feats of strength, sufficiently powerful Viltrumites are capable of making themselves a weapon as they fly through the hull of enemy ships, leaving gaping holes in armor plating and ship hulls. However, if the ship's shields are still engaged, the Viltrumite would instead rebound off harmlessly."
