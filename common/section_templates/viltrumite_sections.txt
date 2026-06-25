@@ -4,7 +4,7 @@ ship_section_template = {
 	key = "viltrumite_soldier_key"
 	ship_size = viltrumite_soldier
 	fits_on_slot = mid
-	# entity = "gatebuilder_01_cruiser_section_entity"
+	entity = no
 	icon = "GFX_ship_part_core_mid"
 	ai_tags = { explosive }
 
