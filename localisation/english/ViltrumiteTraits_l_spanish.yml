@@ -4,11 +4,11 @@
 ####################################
 
 trait_viltrumite_flight: "Vuelo Psicoquinético"
-trait_viltrumite_flight_desc: "Esta especi es capaz de trasladarse a través del espacio creando su propia palanca. Por lo tanto, viaje interplanetario es común para ellos. Dado a su abilidad de levitar sobre el campo de batalla, fácilmente evitan fuerzas terrestes y acercarse eficientemente a sus objetivos."
+trait_viltrumite_flight_desc: "Esta especie es capaz de trasladarse a través del espacio creando su propio impulso. Por lo tanto, viaje interplanetario es común para ellos. Dado a su abilidad de levitar sobre el campo de batalla, pueden fácilmente evitar fuerzas terrestes y acercarse eficientemente a sus objetivos."
 #"This species is capable of translating themselves through space by creating their own leverage. As a result, interplanetary travel is trivial for them. Due to their ability to levitate above the battlefield, they can easily avoid ground emplacements and quickly close the gap between themselves and their targets."
 
 trait_viltrumite_durability: "Durabilidad Extrema"
-trait_viltrumite_durability_desc: "Esta especia es aterradoramente resistente, imune ante cualquier amenaza, ya sea física o mágica. Como resultado, también son capaces de soportar climas extremas."
+trait_viltrumite_durability_desc: "Esta especie es aterradoramente resistente, inmune ante cualquier amenaza, ya sea física o mágica. Como resultado, también son capaces de soportar climas extremas."
 #"This species is uncannily resilient, immune to most firearms up to even high-grade anti-tank weaponry. As a result, they are also easily able to withstand harsh climates."
 
 trait_viltrumite_strength: "Fuerza Increíble"
@@ -16,9 +16,50 @@ trait_viltrumite_strength_desc: "Esta especie es capaz de ejercer mas fuerza que
 #"This species is capable of exerting more force than a being its size should be able to. Members of this species are commonly able to lift entire hab-units single-handed."
 
 trait_viltrumite_regen: "Regeneracíon Corporal"
-trait_viltrumite_regen_desc: "Esta especia es capaz de regenerarse de cualquier herida, y volverse aun mas fuertes después. Debido a su capacidad de regeneración, estos seres son extremadamente difíciles de matar."
+trait_viltrumite_regen_desc: "Esta especie es capaz de regenerarse de cualquier herida, y volverse aun mas fuertes después. Debido a su capacidad de regeneración, estos seres son extremadamente difíciles de matar."
 # "Members of this species are able to regenerate from all but the most grievous of wounds, and even become stronger thereafter. Because of their capacity for regeneration, these beings are extremely hard to kill."
 
 trait_viltrumite: "Viltrumita"
 trait_viltrumite_desc: "Esta especie es efectivamente inmortal. Envejecen más lentamente a medida que crecen, mientras ganan fuerza con el paso del tiempo. Un Viltrumita viejo es aquel que ha luchado y conquistado durante siglos, si no milenios."
 #"Members of this species are effectively immortal. They age slower as they grow older, while their strength continues to increase. An old Viltrumite is one that has fought and conquered for centuries, if not millennia."
+
+
+viltrumite_soldier: "Soldado Viltrumita"
+#"Viltrumite Soldier"
+viltrumite_soldier_cap: "Soldado Viltrumita"
+viltrumite_soldier_key: "Viltrumita"
+viltrumite_soldier_plural: "Ejecutores Viltrumitas"
+
+VILTRUMITE_FIST_WEAPON_1: "Puños Viltrumitas"
+VILTRUMITE_FIST_WEAPON_1_DESC: "Los puños de un Viltrumita son sus armas preferidas. Un Viltrumita puede abrir agujeros en la armadura de una nave enemiga con simples golpes de sus puños si no son eliminados rápidamente."
+#"A Viltrumite's fists are often their preferred weapon. Strong enough to dent a ship's hull just by clenching their fist, a Viltrumite can quickly break holes into an enemy ship if not dispatched quickly."
+
+VILTRUMITE_CUT_WEAPON_1: "Corte Viltrumita"
+VILTRUMITE_CUT_WEAPON_1_DESC: "Debido a su dirabilidad, las manos de un Viltrumita son mucho más resistentes que las de otras especies. Con una mano plana, un Viltrumita puede apuñalar a través de metal y carne. Sin embargo, les cuesta atravesar armaduras gruesas."
+#"Due to their durability, a Viltrumite's hands are far more sturdy than those of other species. With a flat hand, a Viltrumite can stab or slash through metal and flesh. However, they struggle to make it through thick armor."
+
+VILTRUMITE_PD_WEAPON_1: "Defensa Personal Viltrumita"
+VILTRUMITE_PD_WEAPON_1_DESC: "Aunque los Viltrumitas son casi inmunes a armas de fuego, misiles, armas y explosiones pueden desgastarlos, creando vulnerabilidades. Sin embargo, su letalidad y agilidad extrema les permite eliminar peligors rapidos antes de que puedan causar demasiado daño."
+#"Although Viltrumites are nigh-impervious to small arms fire, they are not immune. Missiles, guns, and explosions can whittle away at their defenses, eventually leaving them vulnerable. However, the extreme lethality and agility of a Viltrumite allows them to dispatch nimble targets before they can deal too much damage."
+
+VILTRUMITE_HULL_1: "Carne Viltrumita"
+VILTRUMITE_HULL_1_DESC: "La carne de un Viltrumita es extremadamente resistente y casi inmune a la mayoría de armas."
+#"Viltrumite flesh is extremely tough, and near-impervious to most weaponry."
+
+VILTRUMITE_HEART_1: "Corazón Viltrumita"
+VILTRUMITE_HEART_1_DESC: "La fuente de la regeneración de un Viltrumita. Vulnerable al cariño."
+
+VILTRUMITE_FTL_1: "Vuelo Interestelar"
+VILTRUMITE_FTL_1_DESC: "Aunque no es tan fácil de mantener como otros métodos de viaje, la capacidad de un Viltrumita para volar puede ser utilizada para viajar entre sistemas, independientemente de la presencia o ausencia de hiperlíneas."
+#"Although it is not as easily sustained as other methods of travel, a Viltrumite's ability to fly can be used to travel in between systems, irregardless of the presence or lack of hyperlanes."
+
+VILTRUMITE_FLIGHT_1: "Vuelo Psicoquinético"
+VILTRUMITE_FLIGHT_1_DESC: "Esta especie es capaz de trasladarse a través del espacio creando su propio impulso. Por lo tanto, viaje interplanetario es común para ellos. Dado a su abilidad de levitar sobre el campo de batalla, fácilmente evitan fuerzas terrestes y se acercan eficientemente a sus objetivos."
+
+VILTRUMITE_SENSOR_1: "Experiencia de Combate Viltrumita"
+VILTRUMITE_SENSOR_1_DESC: "La naturaleza guerrera de los Viltrumitas significa que están constantemente expuestos al combate desde una edad temprana. Como resultado, sus reflejos e intuición estan más afinados que los de otras especies."
+#"The martial nature of Viltrumites means that they are constantly subjected to combat from a very young age. As a result, their reflexes and intuition are more honed than those of other species."
+
+VILTRUMITE_ROLE_1: "Comportamiento Viltrumita"
+VILTRUMITE_ROLE_1_DESC: "Cada Viltrumita es un guerrero por sí mismo, pero aquellos en un grupo aprenden a adaptarse a las fortalezas de los demás, mejorando la cohesión."
+#"Each Viltrumite is a warrior of their own, but those in a group learn to adapt to each other's strengths, improving cohesion."
