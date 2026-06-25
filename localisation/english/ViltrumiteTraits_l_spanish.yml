@@ -1,0 +1,24 @@
+﻿l_spanish:
+####################################
+# Traits
+####################################
+
+trait_viltrumite_flight: "Vuelo Psicoquinético"
+trait_viltrumite_flight_desc: "Esta especi es capaz de trasladarse a través del espacio creando su propia palanca. Por lo tanto, viaje interplanetario es común para ellos. Dado a su abilidad de levitar sobre el campo de batalla, fácilmente evitan fuerzas terrestes y acercarse eficientemente a sus objetivos."
+#"This species is capable of translating themselves through space by creating their own leverage. As a result, interplanetary travel is trivial for them. Due to their ability to levitate above the battlefield, they can easily avoid ground emplacements and quickly close the gap between themselves and their targets."
+
+trait_viltrumite_durability: "Durabilidad Extrema"
+trait_viltrumite_durability_desc: "Esta especia es aterradoramente resistente, imune ante cualquier amenaza, ya sea física o mágica. Como resultado, también son capaces de soportar climas extremas."
+#"This species is uncannily resilient, immune to most firearms up to even high-grade anti-tank weaponry. As a result, they are also easily able to withstand harsh climates."
+
+trait_viltrumite_strength: "Fuerza Increíble"
+trait_viltrumite_strength_desc: "Esta especie es capaz de ejercer mas fuerza que un ser su tamaño debería ser capaz de ejercer. Miembros de esta especie pueden levantar unidades habitables enteras con un solo brazo."
+#"This species is capable of exerting more force than a being its size should be able to. Members of this species are commonly able to lift entire hab-units single-handed."
+
+trait_viltrumite_regen: "Regeneracíon Corporal"
+trait_viltrumite_regen_desc: "Esta especia es capaz de regenerarse de cualquier herida, y volverse aun mas fuertes después. Debido a su capacidad de regeneración, estos seres son extremadamente difíciles de matar."
+# "Members of this species are able to regenerate from all but the most grievous of wounds, and even become stronger thereafter. Because of their capacity for regeneration, these beings are extremely hard to kill."
+
+trait_viltrumite: "Viltrumita"
+trait_viltrumite_desc: "Esta especie es efectivamente inmortal. Envejecen más lentamente a medida que crecen, mientras ganan fuerza con el paso del tiempo. Un Viltrumita viejo es aquel que ha luchado y conquistado durante siglos, si no milenios."
+#"Members of this species are effectively immortal. They age slower as they grow older, while their strength continues to increase. An old Viltrumite is one that has fought and conquered for centuries, if not millennia."
