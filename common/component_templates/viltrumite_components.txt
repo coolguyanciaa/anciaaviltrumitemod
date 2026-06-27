@@ -1,6 +1,6 @@
 # Viltrumite Soldier Hull
 utility_component_template = {
-	key = "VILTRUMITE_HULL_1"
+	key = "VILTRUMITE_HULL_S"
 	size = small
 	icon = "GFX_ship_part_bio_armor_5"
 	icon_frame = 1
@@ -10,16 +10,85 @@ utility_component_template = {
 
 	modifier = {
 		ship_hull_add = 500
-		ship_armor_add = 1000
+		ship_armor_add = 1500
 		ship_armor_hardening_add = 0.5
 	}
 	ship_modifier = {
 		ship_damage_reduction_add = 6
 	}
 
-	ai_weight = 10
+	ai_weight = {
+		weight = 10
+	}
 	potential = {
-		is_ship_size = viltrumite_soldier
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
+	}
+}
+
+utility_component_template = {
+	key = "VILTRUMITE_HULL_M"
+	size = medium
+	icon = "GFX_ship_part_bio_armor_5"
+	icon_frame = 1
+	power = 0
+
+	component_set = "VILTRUMITE_HULL_1"
+
+	modifier = {
+		ship_hull_add = 5000
+		ship_armor_add = 10000
+		ship_armor_hardening_add = 0.5
+	}
+	ship_modifier = {
+		ship_damage_reduction_add = 50
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+	potential = {
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
+	}
+}
+
+utility_component_template = {
+	key = "VILTRUMITE_HULL_L"
+	size = large
+	icon = "GFX_ship_part_bio_armor_5"
+	icon_frame = 1
+	power = 0
+
+	component_set = "VILTRUMITE_HULL_1"
+
+	modifier = {
+		ship_hull_add = 15000
+		ship_armor_add = 25000
+		ship_armor_hardening_add = 0.75
+	}
+	ship_modifier = {
+		ship_damage_reduction_add = 100
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+	potential = {
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
 	}
 }
 
@@ -33,7 +102,12 @@ utility_component_template = {
 
 	component_set = "power_core"
 	potential = {
-		is_ship_size = viltrumite_soldier
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
 	}
 
 	modifier = {
@@ -55,7 +129,12 @@ utility_component_template = {
 	power = 0
 
 	potential = {
-		is_ship_size = viltrumite_soldier
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
 	}
 
 	ftl = yes
@@ -87,7 +166,12 @@ utility_component_template = {
 
 	component_set = "thruster_components"
 	potential = {
-		is_ship_size = viltrumite_soldier
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
 	}
 
 	ai_weight = {
@@ -113,11 +197,16 @@ utility_component_template = {
 	component_set = "sensor_components"
 
 	potential = {
-		is_ship_size = viltrumite_soldier
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
 	}
 
 	ai_weight = {
-		weight = 10
+		weight = 100
 	}
 }
 
@@ -130,7 +219,12 @@ utility_component_template = {
 	power = 0
 
 	potential = {
-		is_ship_size = viltrumite_soldier
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
 	}
 
 	component_set = "combat_computers"
@@ -149,6 +243,152 @@ utility_component_template = {
 		ship_damage_against_starbases_mult = 0.50
 		ship_orbital_bombardment_mult = -1
 	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+# Viltrumite Auxiliaries
+utility_component_template = {
+	key = "VILTRUMITE_DODGE_1"
+	size = aux
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+
+	potential = {
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
+	}
+
+	ship_modifier = {
+		ship_evasion_add = 25
+	}
+
+	component_set = "VILTRUMITE_DODGE_1"
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+utility_component_template = {
+	key = "VILTRUMITE_SPEED_1"
+	size = aux
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+
+	potential = {
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
+	}
+
+	ship_modifier = {
+		ship_speed_mult = 0.2
+		ship_fire_rate_mult = 0.2
+	}
+
+	component_set = "VILTRUMITE_SPEED_1"
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+utility_component_template = {
+	key = "VILTRUMITE_STRENGTH_1"
+	size = aux
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+
+	potential = {
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
+	}
+
+	ship_modifier = {
+		weapon_type_kinetic_weapon_damage_mult = 0.2
+		ship_armor_mult = 0.2
+		ship_hull_add = 5000
+	}
+
+	component_set = "VILTRUMITE_STRENGTH_1"
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+utility_component_template = {
+	key = "VILTRUMITE_DURABILITY_1"
+	size = aux
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+
+	potential = {
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
+	}
+
+	ship_modifier = {
+		ship_armor_mult = 0.5
+		ship_hull_add = 10000
+		ship_damage_reduction_add = 100
+	}
+
+	component_set = "VILTRUMITE_DURABILITY_1"
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+utility_component_template = {
+	key = "VILTRUMITE_SURVIVAL_1"
+	size = aux
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+
+	potential = {
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
+	}
+
+	modifier = {
+		ship_hull_regen_add_perc = 0.05
+		ship_armor_regen_add_perc = 0.01
+	}
+
+	ship_modifier = {
+		ship_damage_reduction_add = 50
+	}
+
+	component_set = "VILTRUMITE_SURVIVAL_1"
 
 	ai_weight = {
 		weight = 10

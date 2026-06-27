@@ -4,7 +4,7 @@ weapon_component_template = {
 	size = torpedo
 	entity = "invisible_turret_entity"
 
-	icon = "GFX_ship_part_mandible_3"
+	icon = "GFX_ship_part_psionic_disruptor"
 	icon_frame = 1
 	type = instant
 
@@ -16,7 +16,12 @@ weapon_component_template = {
 	ai_tags = { weapon_role_anti_armor }
 
 	potential = {
-		is_ship_size = viltrumite_soldier
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
 	}
 
 	ai_weight = {
@@ -57,7 +62,12 @@ weapon_component_template = {
 	ai_tags = { weapon_role_anti_hull }
 
 	potential = {
-		is_ship_size = viltrumite_soldier
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
 	}
 
 	ai_weight = {
@@ -96,7 +106,12 @@ weapon_component_template = {
 	ai_tags = { weapon_role_point_defense screen }
 	
 	potential = {
-		is_ship_size = viltrumite_soldier
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
 	}
 
 	point_defence_targets = { "missile" "strike_craft" }
@@ -114,4 +129,147 @@ weapon_component_template = {
 	tracking = 0.9
 
 	total_fire_time = 2
+}
+
+# Viltrumite Flythrough
+weapon_component_template = {
+	key = "VILTRUMITE_FLY_WEAPON_M"
+	size = medium
+	entity = "invisible_turret_entity"
+
+	icon = "GFX_ship_part_energy_lance_1"
+	icon_frame = 1
+	type = instant
+
+	component_set = "VILTRUMITE_FLY_WEAPON_1"
+	projectile_gfx = "biogenesis_01_mandible_attack"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_hull }
+	
+	potential = {
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
+	}
+
+	damage = {
+		min = 50.0
+		max = 100.0
+	}
+	hull_damage = 5.0
+	armor_damage = 5.0
+	shield_damage = 0.0
+
+	range = 3
+	accuracy = 1.0
+	tracking = 1.0
+
+	total_fire_time = 0.1
+}
+
+weapon_component_template = {
+	key = "VILTRUMITE_FLY_WEAPON_L"
+	size = large
+	entity = "invisible_turret_entity"
+
+	icon = "GFX_ship_part_energy_lance_1"
+	icon_frame = 1
+	type = instant
+
+	component_set = "VILTRUMITE_FLY_WEAPON_1"
+	projectile_gfx = "biogenesis_01_mandible_attack"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_hull }
+	
+	potential = {
+		OR = { 
+			is_ship_size = viltrumite_soldier 
+			is_ship_size = viltrumite_leader
+			is_ship_size = viltrumite_hero
+			is_ship_size = viltrumite_emperor
+		}
+	}
+
+	damage = {
+		min = 100.0
+		max = 250.0
+	}
+	hull_damage = 5.0
+	armor_damage = 5.0
+	shield_damage = 0.1
+
+	range = 3
+	accuracy = 1.0
+	tracking = 1.0
+
+	total_fire_time = 0.1
+}
+
+# IGNORE
+weapon_component_template = {
+	key = "UNLIMITED_POWER_1"
+
+	size = small
+	entity = "large_space_cloud_weapon_entity"
+	type = instant
+	icon = "GFX_ship_part_space_cloud_weapon_1"
+	icon_frame = 1
+	projectile_gfx = "arc_emitter"
+	tags = { weapon_type_energy weapon_type_psionic }
+	ai_tags = { weapon_role_anti_armor }
+
+	component_set = "UNLIMITED_POWER_1"
+
+	damage = {
+		min = 1.0
+		max = 9999.0
+	}
+	hull_damage = 1
+	armor_damage = 4
+	shield_damage = 4
+
+	range = 9999
+	accuracy = 1.0
+	tracking = 1.0
+
+	total_fire_time = 0
+	ai_weight = {
+		weight = -1
+	}
+}
+
+weapon_component_template = {
+	key = "UNLIMITED_POWER_PD"
+
+	size = point_defence
+	entity = "large_space_cloud_weapon_entity"
+	type = instant
+	icon = "GFX_ship_part_space_cloud_weapon_1"
+	icon_frame = 1
+	projectile_gfx = "arc_emitter"
+	tags = { weapon_type_energy weapon_type_psionic }
+	ai_tags = { weapon_role_anti_armor }
+
+	component_set = "UNLIMITED_POWER_PD"
+
+	damage = {
+		min = 1.0
+		max = 9999.0
+	}
+	hull_damage = 1
+	armor_damage = 4
+	shield_damage = 4
+
+	range = 9999
+	accuracy = 1.0
+	tracking = 1.0
+
+	total_fire_time = 0
+
+	ai_weight = {
+		weight = -1
+	}
 }
